@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Wireframe Builder</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+
+    <div class='container-fluid' >
+      <div class='row'>  
+        <div id='background-pic'>
+        </div>
+      </div>
+    </div>
+
+    <div id='fake-link-box'>
+      <a href='index.html'>home</a>
+      <a href='media.html'>media</a>
+      <a href='contact.html'>contact</a>
+      <a href='cats.html'>cats</a>
+      <a href='about.html'>about</a>
+      <a>link 1</a>
+      <a>link 2</a>
+      <a>link 3</a>
+      <a>link 4</a>
+      <a>link 5</a>
+    </div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+<style>
+
+@media (min-width: 320px) and (max-width: 374px) {
+    #background-pic {
+      background-image: url('./images/contact/320-374.jpg');
+      width: 320px;
+    } 
+}
+@media (min-width: 375px) and (max-width: 567px) {
+  #background-pic {
+    background-image: url('./images/contact/375-567.jpg');
+    width: 375px;
+  }
+}
+@media (min-width: 568px) and (max-width: 767px) {
+  #background-pic {
+    background-image: url('./images/contact/568-767.jpg');
+    width: 568px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  #background-pic {
+    background-image: url('./images/contact/768-1199.jpg');
+    width: 768px;
+  }
+}
+@media (min-width: 1200px) {
+  #background-pic {
+    background-image: url('./images/contact/1200.jpg');
+    width: 1200px;
+  }
+}
+
+</style>

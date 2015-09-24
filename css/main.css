@@ -1,0 +1,24 @@
+#background-pic {
+	/*background-image: url('../1200.jpg');*/
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 800px;
+	margin: auto;
+}
+#fake-link-box {
+	background: purple;
+	/*opacity: 0.2;*/
+	position: fixed;
+	width: 80px;
+	bottom: 0;
+	left: 0;
+	height: 150px;
+	overflow-y: scroll;
+}
+#fake-link-box a{
+	display: block;
+}
+
+.container-fluid {
+	/*padding-left: 0px;*/
+}
